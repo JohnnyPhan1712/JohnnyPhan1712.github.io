@@ -29,7 +29,7 @@ h1, h2, h3, p { margin-top: 0; }
 .nav-list a:hover, .nav-list a:focus { border-color: var(--accent); }
 .hero-content { max-width: 980px; margin: auto; padding: 13vh 0 12vh; }
 .eyebrow, .section-label, .card-kicker { margin: 0 0 12px; color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
-h1 { max-width: 850px; margin-bottom: 12px; font: 500 clamp(3.6rem, 9vw, 7.8rem)/.95 Georgia, serif; letter-spacing: -.055em; }
+h1 { max-width: 850px; margin-bottom: 12px; font: 700 clamp(3.6rem, 9vw, 7.8rem)/.95 "Segoe UI", Arial, sans-serif; letter-spacing: normal; }
 .career-title { margin-bottom: 24px; color: #f4c8b8; font-size: clamp(1.2rem, 2.2vw, 1.8rem); }
 .hero-description { max-width: 720px; color: rgba(255,253,247,.8); font-size: 1.08rem; }
 .hero-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
@@ -40,7 +40,7 @@ h1 { max-width: 850px; margin-bottom: 12px; font: 500 clamp(3.6rem, 9vw, 7.8rem)
 
 main { max-width: 1180px; margin: auto; padding: 0 7vw; }
 .section { padding: 110px 0; border-bottom: 1px solid var(--line); }
-.section h2 { margin-bottom: 48px; font: 500 clamp(2.4rem, 5vw, 4.4rem)/1.05 Georgia, serif; letter-spacing: -.035em; }
+.section h2 { margin-bottom: 48px; font: 700 clamp(2.4rem, 5vw, 4.4rem)/1.05 "Segoe UI", Arial, sans-serif; letter-spacing: normal; }
 .intro-grid, .skill-section { display: grid; grid-template-columns: .8fr 1.4fr; gap: 8vw; }
 .about-content > p { font-size: 1.12rem; }
 .fact-list { margin: 40px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
@@ -50,15 +50,15 @@ main { max-width: 1180px; margin: auto; padding: 0 7vw; }
 .education-card, .project-card, .learning-list article { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; }
 .education-card { padding: clamp(26px, 5vw, 56px); }
 .education-heading { display: flex; justify-content: space-between; gap: 36px; margin-bottom: 26px; }
-.education-heading h3, .project-content h3, .learning-list h3 { margin-bottom: 8px; font: 600 1.65rem Georgia, serif; }
+.education-heading h3, .project-content h3, .learning-list h3 { margin-bottom: 8px; font: 700 1.65rem "Segoe UI", Arial, sans-serif; }
 .gpa { min-width: 115px; text-align: right; }
 .gpa span { display: block; color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .15em; }
-.gpa strong { color: var(--green); font: 700 2.6rem Georgia, serif; }
+.gpa strong { color: var(--green); font: 700 2.6rem "Segoe UI", Arial, sans-serif; }
 mark { color: inherit; background: #f4c8b8; padding: 2px 6px; }
 .course-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 28px; margin: 30px 0 0; padding: 28px 0 0; border-top: 1px solid var(--line); list-style-position: inside; }
 
 .project-card { display: grid; grid-template-columns: 100px 1fr; gap: 24px; margin-bottom: 20px; padding: clamp(24px, 4vw, 46px); }
-.project-number { color: var(--accent); font: 400 2.6rem Georgia, serif; }
+.project-number { color: var(--accent); font: 400 2.6rem "Segoe UI", Arial, sans-serif; }
 .project-content p:not(.card-kicker) { max-width: 760px; color: var(--muted); }
 .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; padding: 0; list-style: none; }
 .tag-list li { padding: 5px 12px; color: var(--green); background: #e2ebe4; border-radius: 999px; font-size: .82rem; font-weight: 700; }
